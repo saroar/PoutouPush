@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-      .package(url: "https://github.com/IBM-Swift/CCurl.git", from: "0.4.1")
+      .package(url: "https://github.com/IBM-Swift/CCurl.git", from: "1.0.0")
     ],
     targets: [
         .target(name: "PoutouPush",
